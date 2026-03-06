@@ -1,1 +1,9 @@
 @import url("bootstrap");
+
+button{
+    border: none;
+    background-color: transparent;
+}
+header{
+    padding: 50px;
+}
