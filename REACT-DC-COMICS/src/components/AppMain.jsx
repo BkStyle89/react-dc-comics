@@ -58,6 +58,20 @@ export default function AppMain(){
             </div>
           </div>
         </div>
+      </div>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-6'>
+            <div className='container'>
+              <div className='row'>
+              <div className='col-4'>asd</div>
+              <div className='col-4'>asd</div>
+              <div className='col-4'>asd</div>
+              </div>
+            </div>
+          </div>
+          <div className='col-6'>asd</div>
+        </div>
       </div> 
     </main>
   )
