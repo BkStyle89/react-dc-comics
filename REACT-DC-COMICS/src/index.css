@@ -31,6 +31,30 @@ header{
     padding-top: 20px;
     margin-top: 30px;
     font-size: 30px;
-    display: flex;
-    flex-direction: column;
+    
+
 }
+
+#blueBar{
+    background-color: rgba(2, 130, 249);
+}
+
+.iconsBar{
+    width: 70px;
+    height: 80px;
+    margin-bottom: 20px;
+    
+}
+
+#visa{
+    margin-top: 30px;
+}
+
+#merch{
+    padding: 20px;
+}
+
+#Info{
+    display: flex;  
+}
+
