@@ -1,3 +1,4 @@
+import logo from '../assets/img/dc-logo.png';
 export default function AppHeader(){
 
 
@@ -5,7 +6,8 @@ export default function AppHeader(){
     <header> 
       <div className="container">
         <div className="row">
-          <img src="../assets/img/dc-logo.png" alt="" />
+          <div id='upBar'>
+          <img id='logo' src={logo} alt="DC-LOGO" />
           <div>
             <button>CHARACTERS</button>
             <button>COMICS</button>
@@ -17,6 +19,7 @@ export default function AppHeader(){
             <button>FANS</button>
             <button>NEWS</button>
             <button>SHOP</button>
+            </div>
           </div>
         </div>
       </div>
