@@ -62,7 +62,7 @@ export default function AppMain(){
     <div id='backgroundIMG'>
       <div className='container' id='logoInfo'>
         <div className='row'>
-          <div className='col-2'>
+          <div className='col-lg-2 col-md-6 col-sm-12'>
             <h2 className='text-light text-nowrap mt-5'>DC COMICS</h2>
             <p className='text-secondary'>Characters</p>
             <p className='text-secondary'>Comics</p>
@@ -75,7 +75,7 @@ export default function AppMain(){
             <p className='text-secondary'>Shop DC</p>
             <p className='text-secondary'>Shop DC Collectibles</p>
           </div>
-          <div className='col-2'>
+          <div className='col-lg-2 col-md-6 col-sm-12'>
             <h2 className='text-light text-nowrap mt-5'>DC</h2>
             <p className='text-secondary'>Terms of Use</p>
             <p className='text-secondary'>Privacy Policy (NEW)</p>
@@ -89,15 +89,15 @@ export default function AppMain(){
             <p className='text-secondary'>Shop Help</p>
             <p className='text-secondary'>Contact US</p>
           </div>
-          <div className='col-2'>
+          <div className='col-lg-2 col-md-12 col-sm-12'>
             <h2 className='text-light text-nowrap mt-5'>Sites</h2>
             <p className='text-secondary'>DC</p>
             <p className='text-secondary'>Mad Magazine</p>
             <p className='text-secondary'>Dc Kids</p>
             <p className='text-secondary'>DC Universe</p>
-            <p className='text-secondary'>DC Power VISA</p>
+            <p className='text-secondary'>DC Power</p>
           </div>
-          <div id='dcLogo' className='col-6'></div>
+          <div id='dcLogo' className='col-lg-6 d-lg-block d-none'></div>
         </div>
       </div>
     </div>

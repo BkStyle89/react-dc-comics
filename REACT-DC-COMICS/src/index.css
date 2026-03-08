@@ -62,7 +62,7 @@ header{
   background-image: url(./assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px; 
+    
     position: relative;
     z-index: -2;
 }
@@ -84,6 +84,34 @@ p{
     background-repeat: no-repeat;
 }
 
+#footerBar{
+    background-color: rgba(48, 48, 48);
+}
+
+#footBTN{
+    border: solid rgba(2, 130, 249) 2px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#follow{
+    color: rgba(2, 130, 249);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bottomBotton{
+    margin-top: 5px;
+    height: 10px;
+}
+
+#lowBar{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
