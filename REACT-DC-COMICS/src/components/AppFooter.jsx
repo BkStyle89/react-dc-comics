@@ -16,19 +16,19 @@ export default function AppFooter(){
                 <button id="footBTN" className='p-3'>SIGN-UP NOW!!</button>
                 <div className="bottomBotton">
                   <button id="follow">FOLLOW US</button>
-                  <button className='p-2'>
+                  <button className='p-2 d-none d-md-block'>
                     <img src={fBook} alt="FACEBOOK" />
                   </button>
-                  <button className='p-2'>
+                  <button className='p-2 d-none d-md-block'>
                     <img src={tX} alt="TWITTER" />
                   </button>
-                  <button className='p-2'>
+                  <button className='p-2 d-none d-md-block'>
                     <img src={yTube} alt="YOUTUBE" />
                   </button>
-                  <button className='p-2'>
+                  <button className='p-2 d-none d-md-block'>
                     <img src={pTerest} alt="PINTEREST" />
                   </button>
-                  <button className='p-2'>
+                  <button className='p-2 d-none d-md-block'>
                     <img src={pScope} alt="SCOPE" />
                   </button>
                 </div>

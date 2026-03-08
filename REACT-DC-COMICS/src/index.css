@@ -106,6 +106,7 @@ p{
 .bottomBotton{
     margin-top: 5px;
     height: 10px;
+    display: flex;
 }
 
 #lowBar{

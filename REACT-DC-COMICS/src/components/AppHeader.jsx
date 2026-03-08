@@ -7,7 +7,7 @@ export default function AppHeader(){
       <div className="container">
         <div className="row">
           <div id='upBar'>
-          <img id='logo' src={logo} alt="DC-LOGO" />
+          <img className='d-none d-md-block' id='logo' src={logo} alt="DC-LOGO" />
           <div>
             <button>CHARACTERS</button>
             <button>COMICS</button>
