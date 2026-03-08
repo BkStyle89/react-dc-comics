@@ -59,20 +59,48 @@ export default function AppMain(){
           </div>
         </div>
       </div>
-      <div className='container'>
+    <div id='backgroundIMG'>
+      <div className='container' id='logoInfo'>
         <div className='row'>
-          <div className='col-6'>
-            <div className='container'>
-              <div className='row'>
-              <div className='col-4'>asd</div>
-              <div className='col-4'>asd</div>
-              <div className='col-4'>asd</div>
-              </div>
-            </div>
+          <div className='col-2'>
+            <h2 className='text-light text-nowrap mt-5'>DC COMICS</h2>
+            <p className='text-secondary'>Characters</p>
+            <p className='text-secondary'>Comics</p>
+            <p className='text-secondary'>Movies</p>
+            <p className='text-secondary'>TV</p>
+            <p className='text-secondary'>Games</p>
+            <p className='text-secondary'>Videos</p>
+            <p className='text-secondary'>News</p>
+            <h2 id='shop' className='text-light text-nowrap mt-5'>Shop</h2>
+            <p className='text-secondary'>Shop DC</p>
+            <p className='text-secondary'>Shop DC Collectibles</p>
           </div>
-          <div className='col-6'>asd</div>
+          <div className='col-2'>
+            <h2 className='text-light text-nowrap mt-5'>DC</h2>
+            <p className='text-secondary'>Terms of Use</p>
+            <p className='text-secondary'>Privacy Policy (NEW)</p>
+            <p className='text-secondary'>AD Choices</p>
+            <p className='text-secondary'>Advesiting</p>
+            <p className='text-secondary'>Jobs</p>
+            <p className='text-secondary'>Subscriptions</p>
+            <p className='text-secondary'>Talent WorkShops</p>
+            <p className='text-secondary'>CPSC Certificates</p>
+            <p className='text-secondary'>Ratings</p>
+            <p className='text-secondary'>Shop Help</p>
+            <p className='text-secondary'>Contact US</p>
+          </div>
+          <div className='col-2'>
+            <h2 className='text-light text-nowrap mt-5'>Sites</h2>
+            <p className='text-secondary'>DC</p>
+            <p className='text-secondary'>Mad Magazine</p>
+            <p className='text-secondary'>Dc Kids</p>
+            <p className='text-secondary'>DC Universe</p>
+            <p className='text-secondary'>DC Power VISA</p>
+          </div>
+          <div id='dcLogo' className='col-6'></div>
         </div>
-      </div> 
+      </div>
+    </div>
     </main>
   )
 }

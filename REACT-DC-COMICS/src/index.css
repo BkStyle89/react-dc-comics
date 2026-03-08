@@ -58,3 +58,33 @@ header{
     display: flex;  
 }
 
+#backgroundIMG{
+  background-image: url(./assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px; 
+    position: relative;
+    z-index: -2;
+}
+p{
+    margin-bottom: 5px;
+}
+
+#dcLogo::before{
+    content: "";
+    position: absolute;
+    background-image: url(./assets/img/dc-logo-bg.png);
+    z-index: -1;
+    height: 600px;
+    width: 600px;
+    bottom: 50%;
+    right: 30%;
+    translate: 50% 50%;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
