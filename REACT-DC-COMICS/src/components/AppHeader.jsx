@@ -23,6 +23,8 @@ export default function AppHeader(){
           </div>
         </div>
       </div>
+      <div id='jumbotron'>
+      </div>
     </header>
   )
 }
