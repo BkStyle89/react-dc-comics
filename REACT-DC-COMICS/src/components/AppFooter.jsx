@@ -15,7 +15,7 @@ export default function AppFooter(){
               <div id='lowBar'>
                 <button id="footBTN" className='p-3'>SIGN-UP NOW!!</button>
                 <div className="bottomBotton">
-                  <button id="follow">FOLLOW US</button>
+                  <a href="" id="follow">FOLLOW US</a>
                   <button className='p-2 d-none d-md-block'>
                     <img src={fBook} alt="FACEBOOK" />
                   </button>

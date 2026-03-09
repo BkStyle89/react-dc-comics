@@ -101,6 +101,9 @@ p{
     color: rgba(2, 130, 249);
     font-weight: 700;
     font-size: 20px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 20px;
 }
 
 .bottomBotton{
@@ -114,6 +117,23 @@ p{
     justify-content: space-between;
 }
 
+.navigation{
+    padding: 40px;
+}
+.navBar{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.comics{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainFont{
+    text-decoration: none;
+    color: rgba(108, 117, 125);
+}
 
 
 

@@ -8,17 +8,17 @@ export default function AppHeader(){
         <div className="row">
           <div id='upBar'>
           <img className='d-none d-md-block' id='logo' src={logo} alt="DC-LOGO" />
-          <div>
-            <button>CHARACTERS</button>
-            <button>COMICS</button>
-            <button>MOVIES</button>
-            <button>TV</button>
-            <button>GAMES</button>
-            <button>COLLECTIBLES</button>
-            <button>VIDEOS</button>
-            <button>FANS</button>
-            <button>NEWS</button>
-            <button>SHOP</button>
+            <div className='navigation'>
+              <a className='navBar p-2' href="">CHARACTERS</a>
+              <a className='navBar p-2' href="">COMICS</a>
+              <a className='navBar p-2' href="">MOVIES</a>
+              <a className='navBar p-2' href="">TV</a>
+              <a className='navBar p-2' href="">GAMES</a>
+              <a className='navBar p-2' href="">COLLECTIBLES</a>
+              <a className='navBar p-2' href="">VIDEOS</a>
+              <a className='navBar p-2' href="">FANS</a>
+              <a className='navBar p-2' href="">NEWS</a>
+              <a className='navBar p-2' href="">SHOP</a>
             </div>
           </div>
         </div>
@@ -26,3 +26,4 @@ export default function AppHeader(){
     </header>
   )
 }
+

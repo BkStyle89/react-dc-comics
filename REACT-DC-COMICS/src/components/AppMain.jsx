@@ -64,38 +64,46 @@ export default function AppMain(){
         <div className='row'>
           <div className='col-lg-2 col-md-6 col-sm-12'>
             <h2 className='text-light text-nowrap mt-5'>DC COMICS</h2>
-            <p className='text-secondary'>Characters</p>
-            <p className='text-secondary'>Comics</p>
-            <p className='text-secondary'>Movies</p>
-            <p className='text-secondary'>TV</p>
-            <p className='text-secondary'>Games</p>
-            <p className='text-secondary'>Videos</p>
-            <p className='text-secondary'>News</p>
+            <div className='comics'>
+              <a className='mainFont' href=""> Characters</a>
+              <a className='mainFont' href=""> Comics</a>
+              <a className='mainFont' href=""> Movies</a>
+              <a className='mainFont' href=""> TV</a>
+              <a className='mainFont' href=""> Games</a>
+              <a className='mainFont' href=""> Videos</a>
+              <a className='mainFont' href=""> News</a>
+            </div>
             <h2 id='shop' className='text-light text-nowrap mt-5'>Shop</h2>
-            <p className='text-secondary'>Shop DC</p>
-            <p className='text-secondary'>Shop DC Collectibles</p>
+            <div className='comics'>
+              <a href="" className='mainFont'>Shop DC</a>
+              <a href="" className='mainFont'>Shop DC Collectibles</a>
+            </div>  
           </div>
           <div className='col-lg-2 col-md-6 col-sm-12'>
             <h2 className='text-light text-nowrap mt-5'>DC</h2>
-            <p className='text-secondary'>Terms of Use</p>
-            <p className='text-secondary'>Privacy Policy (NEW)</p>
-            <p className='text-secondary'>AD Choices</p>
-            <p className='text-secondary'>Advesiting</p>
-            <p className='text-secondary'>Jobs</p>
-            <p className='text-secondary'>Subscriptions</p>
-            <p className='text-secondary'>Talent WorkShops</p>
-            <p className='text-secondary'>CPSC Certificates</p>
-            <p className='text-secondary'>Ratings</p>
-            <p className='text-secondary'>Shop Help</p>
-            <p className='text-secondary'>Contact US</p>
+            <div className='comics'>
+              <a href="" className='mainFont'>Terms of Use</a>
+              <a href="" className='mainFont'>Privacy Policy (NEW)</a>
+              <a href="" className='mainFont'>AD Choices</a>
+              <a href="" className='mainFont'>Advesiting</a>
+              <a href="" className='mainFont'>Jobs</a>
+              <a href="" className='mainFont'>Subscriptions</a>
+              <a href="" className='mainFont'>Talent WorkShops</a>
+              <a href="" className='mainFont'>CPSC Certificates</a>
+              <a href="" className='mainFont'>Ratings</a>
+              <a href="" className='mainFont'>Shop Help</a>
+              <a href="" className='mainFont'>Contact US</a>
+            </div>
           </div>
           <div className='col-lg-2 col-md-12 col-sm-12'>
             <h2 className='text-light text-nowrap mt-5'>Sites</h2>
-            <p className='text-secondary'>DC</p>
-            <p className='text-secondary'>Mad Magazine</p>
-            <p className='text-secondary'>Dc Kids</p>
-            <p className='text-secondary'>DC Universe</p>
-            <p className='text-secondary'>DC Power</p>
+            <div className='comics'>
+              <a href="" className='mainFont'>DC</a>
+              <a href="" className='mainFont'>Mad Magazine</a>
+              <a href="" className='mainFont'>Dc Kids</a>
+              <a href="" className='mainFont'>DC Universe</a>
+              <a href="" className='mainFont'>DC Power</a>
+            </div>  
           </div>
           <div id='dcLogo' className='col-lg-6 d-lg-block d-none'></div>
         </div>
