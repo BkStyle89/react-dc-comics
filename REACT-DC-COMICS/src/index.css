@@ -16,8 +16,7 @@ button{
 
 #upBar{
     display: flex;
-    justify-content: space-between;
-       
+    justify-content: space-between;  
 }
 
 #blackBar{
@@ -118,6 +117,7 @@ p{
 
 .navigation{
     padding: 40px;
+    flex-shrink: 3;
 }
 .navBar{
     text-decoration: none;
@@ -139,8 +139,6 @@ p{
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-
-    
 }
 
 
