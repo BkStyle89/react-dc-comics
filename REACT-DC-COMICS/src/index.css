@@ -141,5 +141,10 @@ p{
     background-size: cover;
 }
 
+#comic{
+    display: flex;
+
+}
+
 
 
