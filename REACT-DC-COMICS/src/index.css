@@ -93,6 +93,7 @@ p{
     color: white;
     margin-bottom: 25px;
     text-align: center;
+    
 }
 
 #follow{
@@ -119,7 +120,7 @@ p{
     padding: 40px;
     flex-shrink: 3;
 }
-.navBar{
+.nav-item{
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -139,26 +140,33 @@ p{
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    
+
 }
 
 #comic{
     display: flex;
-  
+    flex-wrap: wrap;
+    gap: 20px;
 
 }
 
 .card{
-    width: 185px;
-    height: 185px;
-    
-    
+    width: 100%; 
 }
 
 .cardTitle{
     font-size: 20px;
     color: white;
+    
+    
+    
 
 }
 
+.test{
+    width: 100%;
+    margin-bottom: 100px;    
+}
 
 

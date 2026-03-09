@@ -163,16 +163,14 @@ const fumetti = [
     <main>
       <div id="blackBar">
         <div  className="container">
-          <div className="row row-col-6">
-            <div id='comic'>
+            <div className='row col-2' id='comic'>
              {fumetti.map((fumetto,index)=>(
-              <card key={index}>
-                <img src={fumetto.thumb} className='card mt-5 flex-wrap' />
-                <h1 className='cardTitle'>{fumetto.title}   </h1>
+              <card className="test " key={index}>
+                <img src={fumetto.thumb} className='card  flex-wrap col' />
+                <h1 className='cardTitle text-wrap'>{fumetto.title}   </h1>
                 </card>
              ))}
              </div>
-          </div>
         </div>
       </div>
       <div id="blueBar">
@@ -219,7 +217,7 @@ const fumetti = [
           </div>
         </div>
       </div>
-    <div id='backgroundIMG'>
+    <div  id='backgroundIMG'>
       <div className='container' id='logoInfo'>
         <div className='row'>
           <div className='col-lg-2 col-md-6 col-sm-12'>

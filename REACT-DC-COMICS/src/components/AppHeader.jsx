@@ -7,19 +7,48 @@ export default function AppHeader(){
       <div className="container">
         <div className="row">
           <div id='upBar'>
-          <img className='d-none d-lg-block' id='logo' src={logo} alt="DC-LOGO" />
-            <div className='navigation '>
-              <a className='navBar p-1' href="">CHARACTERS</a>
-              <a className='navBar p-1' href="">COMICS</a>
-              <a className='navBar p-1' href="">MOVIES</a>
-              <a className='navBar p-1' href="">TV</a>
-              <a className='navBar p-1' href="">GAMES</a>
-              <a className='navBar p-1' href="">COLLECTIBLES</a>
-              <a className='navBar p-1' href="">VIDEOS</a>
-              <a className='navBar p-1' href="">FANS</a>
-              <a className='navBar p-1' href="">NEWS</a>
-              <a className='navBar p-1' href="">SHOP</a>
-            </div>
+            <img className='d-none d-lg-block' id='logo' src={logo} alt="DC-LOGO" />
+            <nav className="navbar navbar-expand-lg ">
+              <div className="container-fluid ">
+                  <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon "></span>
+                  </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">CHARACTERS</a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link " href="#">COMICS</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">MOVIES</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">TV</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">GAMES</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">COLLECTIBLES</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">VIDEOS</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">FANS</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">NEWS</a>
+                    </li>
+                    <li className="nav-item ">
+                    <a className="nav-link active " aria-current="page" href="#">SHOP</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
           </div>
         </div>
       </div>
