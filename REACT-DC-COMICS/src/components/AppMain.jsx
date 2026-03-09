@@ -165,13 +165,16 @@ const fumetti = [
         <div  className="container">
             <div className='row ' id='comic'>
              {fumetti.map((fumetto,index)=>(
-              <card className="col-2 mt-5 gx-5 " key={index}>
+              <card className="col-lg-2 col-md-4 col-6 mt-5 gx-5 " key={index}>
                 <img src={fumetto.thumb} className='d-flex align-self-stretch h-75 w-100' />
                 <h1 className='cardTitle text-wrap'>{fumetto.title}   </h1>
                 </card>
                 
              ))}
              </div>
+        </div>
+        <div className='d-flex justify-content-center'>
+          <button id='more' className='text-light bg-primary p-2 fw-bold mb-4'>LOAD MORE</button>
         </div>
       </div>
       <div id="blueBar">
