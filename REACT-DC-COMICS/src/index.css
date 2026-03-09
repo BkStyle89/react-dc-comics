@@ -21,6 +21,7 @@ button{
 
 #blackBar{
     background-color: rgba(28, 28, 28);
+    position: relative;
     
 }
 
@@ -148,6 +149,19 @@ p{
 .cardTitle{
     font-size: 20px;
     color: white;
+
+}
+
+.current::before{
+    content: "CURRENT SERIES";
+    position: absolute;
+    translate: 50% 50%;
+    color: white;
+    background-color: rgba(2, 130, 249);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 100%;
 
 }
 

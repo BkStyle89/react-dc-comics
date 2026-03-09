@@ -162,6 +162,8 @@ const fumetti = [
   return (
     <main>
       <div id="blackBar">
+        <div className='current d-none d-md-block'>
+        </div>
         <div  className="container">
             <div className='row ' id='comic'>
              {fumetti.map((fumetto,index)=>(
