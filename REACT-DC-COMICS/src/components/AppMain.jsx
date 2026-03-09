@@ -65,7 +65,7 @@ const fumetti = [
     id: 5,
     title: "Batman #56",
     description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-    thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+    thumb: "https://th.bing.com/th/id/R.d674995e45d77a265830a1bdef98c4dd?rik=YBATIv4ZWIl7Rw&pid=ImgRaw&r=0",
     price: "$3.99",
     series: "Batman",
     sale_date: "2018-10-03",
@@ -163,12 +163,13 @@ const fumetti = [
     <main>
       <div id="blackBar">
         <div  className="container">
-            <div className='row  ' id='comic'>
+            <div className='row ' id='comic'>
              {fumetti.map((fumetto,index)=>(
-              <card className="test col-2 align-self-stretch" key={index}>
-                <img src={fumetto.thumb} className='card  flex-wrap col' />
+              <card className="col-2 d-flex flex-column mt-5 mb-5 gx-5 " key={index}>
+                <img src={fumetto.thumb} className='d-flex align-self-stretch' />
                 <h1 className='cardTitle text-wrap'>{fumetto.title}   </h1>
                 </card>
+                
              ))}
              </div>
         </div>
