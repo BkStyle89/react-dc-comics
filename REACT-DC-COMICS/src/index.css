@@ -21,7 +21,7 @@ button{
 
 #blackBar{
     background-color: rgba(28, 28, 28);
-    height: 150px;
+    
 }
 
 #lightText{
@@ -143,6 +143,20 @@ p{
 
 #comic{
     display: flex;
+  
+
+}
+
+.card{
+    width: 185px;
+    height: 185px;
+    
+    
+}
+
+.cardTitle{
+    font-size: 20px;
+    color: white;
 
 }
 

@@ -162,14 +162,16 @@ const fumetti = [
   return (
     <main>
       <div id="blackBar">
-        <div className="container">
-          <div className="row">
+        <div  className="container">
+          <div className="row row-col-6">
+            <div id='comic'>
              {fumetti.map((fumetto,index)=>(
-              <card id="comic" key={index}>
-                <img src={fumetto.thumb}  />
-                <h1>{fumetto.title}</h1>
+              <card key={index}>
+                <img src={fumetto.thumb} className='card mt-5 flex-wrap' />
+                <h1 className='cardTitle'>{fumetto.title}   </h1>
                 </card>
              ))}
+             </div>
           </div>
         </div>
       </div>
