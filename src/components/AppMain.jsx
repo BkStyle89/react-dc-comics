@@ -171,7 +171,7 @@ const fumetti = [
         <div  className="container">
             <div className='row ' id='comic'>
              {fumetti.map(fumetto=>(
-              <AppCard img ={fumetto.thumb} title={fumetto.title} price={fumetto.price} type={fumetto.type} key={fumetto.id}/>
+              <AppCard img={fumetto.thumb} title={fumetto.title} price={fumetto.price} type={fumetto.type} key={fumetto.id}/>
                 
              ))}
              </div>
