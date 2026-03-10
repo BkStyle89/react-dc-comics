@@ -3,7 +3,9 @@ import merchandise from '../assets/img/buy-comics-merchandise.png';
 import subscriptions from '../assets/img/buy-comics-subscriptions.png';
 import locator from '../assets/img/buy-comics-shop-locator.png';
 import visa from '../assets/img/buy-dc-power-visa.svg';
+import AppCard from './AppCard'
 export default function AppMain(){
+
 const fumetti = [
   {
     id: 1,
@@ -156,8 +158,10 @@ const fumetti = [
     type: "graphic novel",
     artists: ["Fernando Blanco", "Joëlle Jones"],
     writers: ["Joëlle Jones"],
-  },
-];
+    },
+]; 
+
+
 
   return (
     <main>
@@ -167,10 +171,7 @@ const fumetti = [
         <div  className="container">
             <div className='row ' id='comic'>
              {fumetti.map((fumetto,index)=>(
-              <card className="col-lg-2 col-md-4 col-6 mt-5 gx-5 " key={index}>
-                <img src={fumetto.thumb} className='d-flex align-self-stretch h-75 w-100' />
-                <h1 className='cardTitle text-wrap'>{fumetto.title}   </h1>
-                </card>
+              <AppCard img ={fumetto.thumb}></AppCard>
                 
              ))}
              </div>
